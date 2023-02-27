@@ -2,10 +2,31 @@
   font-family: 'Gothic';
   src: url(../../assets/fonts/GOTHIC.TTF);
 }
+@font-face{
+  font-family: 'Gothic-itallic';
+  src: url(../../assets/fonts/GOTHICI.TTF);
+}
+@font-face{
+  font-family: 'Gothic-bold';
+  src: url(../../assets/fonts/GOTHICB.TTF);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #FCFC30;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #465EFF;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #FCFC30;  /* creates padding around scroll thumb */
 }
 body {
   font-family: 'Gothic',Arial, Helvetica, sans-serif;
@@ -18,9 +39,16 @@ section.bg-missaoseg {
   background-image: url(../../assets/images/missaoseg-banner.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   min-height: 80vh;
   min-width: 100%;
+}
+.bg-dark {
+  background-color: #465EFF !important;
+}
+.login-btn {
+  position: relative;
+  left: 30rem;
 }
 .logo-missaoseg-banner {
   margin-top: 50vh;
@@ -28,15 +56,16 @@ section.bg-missaoseg {
 .white {
   color: white;
 }
+.blue {
+  color: #465EFF
+}
 .eclipse-bg {
-  background-color: #F9DD16;
+  background-color: #FCFC30;
   border-radius: 15px;
-  min-width: 223px;
-  max-height: 223px;
+  min-width: 221px;
 }
 .eclipse-bg img {
-  max-width: 76px;
-  margin-left: 3vh;
+  max-width: 125px;
 }
 .bg-start-space {
   background-color: #000;
@@ -57,10 +86,13 @@ section.bg-missaoseg {
   font-size: 12px;
 }
 .bg-blue {
-  background-color: #0038A8;
+  background-color: #465EFF;
 }
 .p-bs {
   padding: 0 15vh;
+}
+.p-bs-faq {
+  padding: 0 10vh;
 }
 .bg-pf {
   background-image: url(../../assets/images/pf-bg.jpg);
@@ -72,6 +104,33 @@ section.bg-missaoseg {
 .accordion {
   --bs-accordion-active-color: #333;
   --bs-accordion-active-bg: #eaeaea;
+  --bs-accordion-btn-focus-border-color: #333;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(51, 51, 51, 0.25);
+  --bs-accordion-border-radius: var(--bs-border-radius-sm);
+}
+
+.btn-warning {
+  --bs-btn-bg: #FCFC30;
+  --bs-btn-border-color: #FCFC30;
+  --bs-btn-hover-bg: #d2d228;
+  --bs-btn-hover-border-color: #d2d228;
+  --bs-btn-active-bg: #FCFC30;
+  --bs-btn-active-border-color: #FCFC30;
+  --bs-btn-disabled-bg: #d2d228;
+  --bs-btn-disabled-border-color: #d2d228;
+    border-radius: 25px;
+    color: #465EFF;
+    font-weight: 600;
+}
+.btn {
+  padding: 1vh 20px;
+  box-shadow: 0 4px 6px #00000075;
+}
+.fst-italic {
+  font-family: 'Gothic-itallic', Arial, Helvetica, sans-serif;
+}
+.bold {
+  font-family: 'Gothic-bold', Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width: 1366px) {
 
