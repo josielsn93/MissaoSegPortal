@@ -1,0 +1,70 @@
+@font-face{
+  font-family: 'Gothic';
+  src: url(../../assets/fonts/GOTHIC.TTF);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Gothic',Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+h1 {
+  font-weight: 100;
+}
+section.bg-missaoseg {
+  background-image: url(../../assets/images/missaoseg-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  min-height: 80vh;
+  min-width: 100%;
+}
+.logo-missaoseg-banner {
+  margin-top: 50vh;
+}
+.white {
+  color: white;
+}
+.eclipse-bg {
+  background-image: url(../../assets/images/eclipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-width: 223px;
+  min-height: 223px;
+
+}
+.eclipse-bg img {
+  max-width: 76px;
+  margin-left: 3vh;
+}
+.bg-start-space {
+  background-color: #000;
+  margin-bottom: -10vh;
+}
+.bg-start-space p {
+  max-width: 129px;
+}
+.bg-space-gift {
+  background-image: url(../../assets/images/space-gifts.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 10vh;
+}
+
+.fs-small {
+  font-size: 12px;
+}
+@media screen and (max-width: 1366px) {
+
+}
+@media screen and (max-width: 700px) {
+  .eclipse-bg {
+    min-width: 100px;
+    min-height: 100px;
+  }
+}
