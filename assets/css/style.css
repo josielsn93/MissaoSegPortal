@@ -146,8 +146,14 @@ section.bg-missaoseg {
 .gray {
   color: #333;
 }
-@media screen and (max-width: 1366px) {
-
+@media screen and (max-width: 1400px) {
+  .login-btn {
+    left: 24rem;
+  }
+  .mx-5 {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
 }
 @media screen and (max-width: 700px) {
   .eclipse-bg {
