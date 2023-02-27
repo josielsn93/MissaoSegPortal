@@ -29,13 +29,10 @@ section.bg-missaoseg {
   color: white;
 }
 .eclipse-bg {
-  background-image: url(../../assets/images/eclipse.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-color: #F9DD16;
+  border-radius: 15px;
   min-width: 223px;
-  min-height: 223px;
-
+  max-height: 223px;
 }
 .eclipse-bg img {
   max-width: 76px;
@@ -58,6 +55,23 @@ section.bg-missaoseg {
 
 .fs-small {
   font-size: 12px;
+}
+.bg-blue {
+  background-color: #0038A8;
+}
+.p-bs {
+  padding: 0 15vh;
+}
+.bg-pf {
+  background-image: url(../../assets/images/pf-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 15vh;
+}
+.accordion {
+  --bs-accordion-active-color: #333;
+  --bs-accordion-active-bg: #eaeaea;
 }
 @media screen and (max-width: 1366px) {
 
