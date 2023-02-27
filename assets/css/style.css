@@ -132,6 +132,20 @@ section.bg-missaoseg {
 .bold {
   font-family: 'Gothic-bold', Arial, Helvetica, sans-serif;
 }
+.modal-content {
+  background-color: #eaeaea;
+  border-radius: var(--bs-modal-inner-border-radius) !;
+}
+.btn-primary {
+  background-color: #333;
+  border-color: #333;
+  --bs-btn-hover-bg: #212121;
+  --bs-btn-hover-border-color: #212121;
+
+}
+.gray {
+  color: #333;
+}
 @media screen and (max-width: 1366px) {
 
 }
@@ -139,5 +153,14 @@ section.bg-missaoseg {
   .eclipse-bg {
     min-width: 100px;
     min-height: 100px;
+  }
+  .login-btn {
+    left: 0;
+  }
+  .p-bs {
+    padding: 0;
+  }
+  .bg-pf {
+    padding: 0;
   }
 }
