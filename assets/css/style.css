@@ -200,6 +200,18 @@ aside .btn {
   text-decoration: underline;
   font-size: 18px;
 }
+.bg-light-gray {
+  background-color: #eaeaea;
+}
+.desafios-user{
+  padding: 0 20vh;
+}
+/* Chamadas Desafios página usuario*/
+.bg-desafios-banner {
+  background-color: #735CC6;
+  border-radius: 22px;
+}
+
 
 /*Telas Notebooks*/
 @media screen and (max-width: 1400px) {
