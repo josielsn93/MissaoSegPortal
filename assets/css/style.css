@@ -113,6 +113,9 @@ section.bg-missaoseg {
 .blue {
   color: #465EFF
 }
+.yellow {
+  color: #FCFC30;
+}
 .eclipse-bg {
   background-color: #FCFC30;
   border-radius: 15px;
@@ -206,10 +209,20 @@ aside .btn {
 .desafios-user{
   padding: 0 20vh;
 }
+.bg-estrelas-user {
+  background-color: #F97A70;
+  border-radius: 22px;
+  padding: 2vh 3vh;
+  color: white;
+}
+#estrelas-user {
+  padding: 0 20vh;
+}
 /* Chamadas Desafios página usuario*/
 .bg-desafios-banner {
   background-color: #735CC6;
   border-radius: 22px;
+  
 }
 
 
