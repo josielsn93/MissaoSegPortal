@@ -128,15 +128,13 @@ section.bg-missaoseg {
   background-color: #000;
   margin-bottom: -10vh;
 }
-.bg-start-space p {
-  max-width: 129px;
-}
 .bg-space-gift {
   background-image: url(../../assets/images/space-gifts.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   padding-top: 10vh;
+  min-height: 50vh;
 }
 
 .fs-small {
@@ -256,5 +254,11 @@ aside .btn {
   }
   header img {
     max-width: 220px;
+  }
+  .desafios-user {
+    padding: 0 5vh;
+  }
+  #estrelas-user {
+    padding: 0 5vh;
   }
 }
