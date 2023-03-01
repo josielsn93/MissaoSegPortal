@@ -64,8 +64,8 @@ section.bg-missaoseg {
 .btn-warning {
   --bs-btn-bg: #FCFC30;
   --bs-btn-border-color: #FCFC30;
-  --bs-btn-hover-bg: #d2d228;
-  --bs-btn-hover-border-color: #d2d228;
+  --bs-btn-hover-bg: #d2d228 !important;
+  --bs-btn-hover-border-color: #d2d228 !important;
   --bs-btn-active-bg: #FCFC30;
   --bs-btn-active-border-color: #FCFC30;
   --bs-btn-disabled-bg: #d2d228;
@@ -86,7 +86,7 @@ section.bg-missaoseg {
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
   background: none;
 }
-.btn:hover {
+header .btn:hover {
   background: none;
 }
 .dropdown-menu {
@@ -232,6 +232,9 @@ aside .btn {
   .mx-5 {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
+  }
+  .bg-space-gift {
+    min-height: 80vh;
   }
 }
 
