@@ -35,6 +35,9 @@ body {
 h1 {
   font-weight: 100;
 }
+p, a, ul, span, button {
+  font-family: Arial, Helvetica, sans-serif;
+}
 section.bg-missaoseg {
   background-image: url(../../assets/images/missaoseg-banner.png);
   background-repeat: no-repeat;
@@ -43,9 +46,60 @@ section.bg-missaoseg {
   min-height: 80vh;
   min-width: 100%;
 }
+
+
+
+/* Classes Bootstrap modificadas*/
 .bg-dark {
   background-color: #465EFF !important;
 }
+.accordion {
+  --bs-accordion-active-color: #333;
+  --bs-accordion-active-bg: #eaeaea;
+  --bs-accordion-btn-focus-border-color: #333;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(51, 51, 51, 0.25);
+  --bs-accordion-border-radius: var(--bs-border-radius-sm);
+}
+
+.btn-warning {
+  --bs-btn-bg: #FCFC30;
+  --bs-btn-border-color: #FCFC30;
+  --bs-btn-hover-bg: #d2d228;
+  --bs-btn-hover-border-color: #d2d228;
+  --bs-btn-active-bg: #FCFC30;
+  --bs-btn-active-border-color: #FCFC30;
+  --bs-btn-disabled-bg: #d2d228;
+  --bs-btn-disabled-border-color: #d2d228;
+    border-radius: 25px;
+    color: #465EFF;
+    font-weight: 600;
+}
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1vh 20px;
+  box-shadow: 0 4px 6px #00000075;
+}
+.btn-danger {
+  background: none;
+  border: none;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  background: none;
+}
+.btn:hover {
+  background: none;
+}
+.dropdown-menu {
+  border-radius: 0;
+  background-color: rgb(70, 94, 255, 0.8);
+  --bs-dropdown-link-color: white;
+  --bs-dropdown-font-size: 18px
+}
+.dropdown-menu[data-bs-popper] {
+  left: -20vh;
+}
+
+
 .login-btn {
   position: relative;
   left: 30rem;
@@ -101,31 +155,6 @@ section.bg-missaoseg {
   background-size: cover;
   padding: 15vh;
 }
-.accordion {
-  --bs-accordion-active-color: #333;
-  --bs-accordion-active-bg: #eaeaea;
-  --bs-accordion-btn-focus-border-color: #333;
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(51, 51, 51, 0.25);
-  --bs-accordion-border-radius: var(--bs-border-radius-sm);
-}
-
-.btn-warning {
-  --bs-btn-bg: #FCFC30;
-  --bs-btn-border-color: #FCFC30;
-  --bs-btn-hover-bg: #d2d228;
-  --bs-btn-hover-border-color: #d2d228;
-  --bs-btn-active-bg: #FCFC30;
-  --bs-btn-active-border-color: #FCFC30;
-  --bs-btn-disabled-bg: #d2d228;
-  --bs-btn-disabled-border-color: #d2d228;
-    border-radius: 25px;
-    color: #465EFF;
-    font-weight: 600;
-}
-.btn {
-  padding: 1vh 20px;
-  box-shadow: 0 4px 6px #00000075;
-}
 .fst-italic {
   font-family: 'Gothic-itallic', Arial, Helvetica, sans-serif;
 }
@@ -146,6 +175,33 @@ section.bg-missaoseg {
 .gray {
   color: #333;
 }
+/*Página Usuário logado*/
+
+.bg-body-tertiary {
+  background-color:#1A1817 !important;
+}
+header img {
+  max-width: 300px;
+}
+.navbar-text {
+  color: #fff;
+}
+.bg-aside {
+  background-color: #465EFF;
+  padding: 0 20vh ;
+}
+aside a {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+}
+aside .btn {
+  box-shadow: none;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+/*Telas Notebooks*/
 @media screen and (max-width: 1400px) {
   .login-btn {
     left: 24rem;
@@ -155,6 +211,10 @@ section.bg-missaoseg {
     margin-right: 2rem !important;
   }
 }
+
+
+
+/*Telas Mobile*/
 @media screen and (max-width: 700px) {
   .eclipse-bg {
     min-width: 100px;
@@ -168,5 +228,8 @@ section.bg-missaoseg {
   }
   .bg-pf {
     padding: 0;
+  }
+  header img {
+    max-width: 220px;
   }
 }
