@@ -220,8 +220,11 @@ aside .btn {
 .bg-desafios-banner {
   background-color: #735CC6;
   border-radius: 22px;
-  
 }
+.pure-menu {
+  display: none;
+}
+
 
 
 /*Telas Notebooks*/
@@ -235,6 +238,21 @@ aside .btn {
   }
   .bg-space-gift {
     min-height: 80vh;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  aside .btn {
+    font-size: 14px;
+  }
+  aside a {
+    font-size: 14px;
+  }
+  .fs-3 {
+    font-size: 1.25rem !important;
+  }
+  .bg-space-gift {
+    min-height: 60vh;
   }
 }
 
@@ -263,5 +281,11 @@ aside .btn {
   }
   #estrelas-user {
     padding: 0 5vh;
+  }
+  .pure-menu {
+    display: flex;
+  }
+  .bg-space-gift {
+    min-height: 40vh;
   }
 }
