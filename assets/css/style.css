@@ -70,6 +70,8 @@ section.bg-missaoseg {
   --bs-btn-active-border-color: #FCFC30;
   --bs-btn-disabled-bg: #d2d228;
   --bs-btn-disabled-border-color: #d2d228;
+    background-color: #FCFC30;
+    border-color: #FCFC30;
     border-radius: 25px;
     color: #465EFF;
     font-weight: 600;
@@ -221,7 +223,7 @@ aside .btn {
   background-color: #eaeaea;
 }
 .desafios-user{
-  padding: 0 30vh;
+  padding: 0 25vh;
 }
 .bg-estrelas-user {
   background-color: #F97A70;
@@ -269,6 +271,9 @@ aside .btn {
   }
   .bg-space-gift {
     min-height: 50vh;
+  }
+  .desafios-user {
+    padding: 0 20vh;
   }
 }
 
