@@ -190,8 +190,10 @@ header .btn:hover {
 .gray {
   color: #333;
 }
-/*Página Usuário logado*/
 
+
+
+/*Página Usuário logado*/
 .bg-body-tertiary {
   background-color:#1A1817 !important;
 }
@@ -234,6 +236,9 @@ aside .btn {
 #estrelas-user {
   padding: 0 20vh;
 }
+
+
+
 /* Chamadas Desafios página usuario*/
 .bg-desafios-banner {
   background-color: #735CC6;
@@ -244,6 +249,73 @@ aside .btn {
 }
 
 
+
+/* Página Minha Conta*/
+.minha-conta h1 {
+  font-size: 26px;
+}
+.minha-conta h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.bg-titulo-quadro {
+  background-color: #465EFF;
+  color: white;
+  border-radius: 15px 15px 0 0;
+  min-width: 356px;
+
+}
+.corpo-quadro {
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
+  min-height: 164px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%
+
+}
+.corpo-quadro li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.meta-positiva {
+  color: #009E8C;
+  font-weight: 600;
+}
+.meta-negativa {
+  color: #EB4900;
+  font-weight: 600;
+}
+.meta-desafio {
+  font-size: 14px;
+  color: #333;
+}
+.pontos-desafio {
+  color: #465EFF;
+  text-align: end;
+}
+.corpo-quadro-estrelas {
+  background-color: #FCFC30;
+  min-height: 164px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 356px;
+}
+.quadro-conta h1 {
+  font-size: 40px;
+  color: #465EFF;
+  font-weight: 600;
+}
+.form-control:disabled {
+background-color: #eaeaea; 
+border: none; 
+}
+.logout a{
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
 
 /*Telas Notebooks*/
 @media screen and (max-width: 1400px) {
