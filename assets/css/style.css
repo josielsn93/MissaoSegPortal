@@ -355,6 +355,33 @@ border: none;
 
 
 
+/*Páginas Desafios*/
+.bg-quadrado-desafio {
+  min-width: 376px;
+  max-width: 410px;
+  background-color: #FCFC30;
+  border-radius: 21px;
+  
+}
+.titulo-desafio {
+  position: relative;
+  top: -10vh;
+  max-height: 350px;
+}
+.bg-quadrado-desafio img {
+  min-width: 500px;
+}
+.bg-gray {
+  background-color: #d9d9d9;
+}
+.btn-blue {
+  background-color: #465EFF;
+  color: #FCFC30;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 59px;
+}
+
 
 /*Cor do submenu mobile*/
 .pure-menu-link {
@@ -443,5 +470,20 @@ border: none;
   }
   .eclipse-bg img {
     max-width: 365px;
+  }
+  .bg-quadrado-desafio img {
+    width: 330px;
+    min-width: 0;
+  }
+  .titulo-desafio {
+    top: 0;
+    max-height: 500px;
+  }
+  .bg-quadrado-desafio {
+    width: 300px;
+    min-width: 0;
+  }
+  .titulo-desafio h2 {
+    text-align: center;
   }
 }
