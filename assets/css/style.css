@@ -135,9 +135,7 @@ header .btn:hover {
   border-radius: 15px;
   min-width: 221px;
 }
-.eclipse-bg img {
-  max-width: 125px;
-}
+
 .bg-start-space {
   background-color: #000;
   margin-bottom: -10vh;
@@ -236,6 +234,39 @@ aside .btn {
 #estrelas-user {
   padding: 0 20vh;
 }
+.titulo-banner-usuario {
+  font-family: 'Gothic-bold';
+  position: relative;
+  left: 0%;
+  margin-bottom: 9%;
+  color: #FCFC30;
+}
+.titulo-banner-usuario h1{
+  font-size: 44px;
+}
+.margin-user {
+  padding: 0 20vh;
+}
+.progress, .progress-stacked {
+  border-radius: 0px;
+  --bs-progress-bar-bg: #1DD851;
+}
+.progress-bar {
+  background-color: #1DD851;
+}
+.bg-premios-user {
+  background-color: #00EBD0;
+  border-radius: 22px;
+  padding: 2vh 3vh;
+  color: black;
+}
+.bg-premios-user img {
+  max-width: 150px;
+}
+.bg-premios-user a {
+  color: black;
+}
+
 
 
 
@@ -293,7 +324,6 @@ aside .btn {
   color: #465EFF;
   text-align: end;
   font-size: 14px;
-
 }
 
 .corpo-quadro-estrelas {
@@ -322,6 +352,9 @@ border: none;
 .col-form-label {
   font-weight: 600;
 }
+
+
+
 
 /*Cor do submenu mobile*/
 .pure-menu-link {
@@ -392,5 +425,23 @@ border: none;
   .bg-space-gift {
     min-height: 40vh;
   }
-  
+  .bg-premios-user img {
+    max-width: 60px;
+  }
+  .margin-user {
+    padding: 0 1vh;
+  }
+  .carousel-caption {
+    bottom: 0;
+  }
+  .titulo-banner-usuario h1 {
+    font-size: 22px;
+
+  }
+  .titulo-banner-usuario {
+  margin-bottom: 2%;
+  }
+  .eclipse-bg img {
+    max-width: 365px;
+  }
 }
