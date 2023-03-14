@@ -388,6 +388,19 @@ border: none;
   border-color: #333;
 }
 
+/*Páginas Em breve */
+.bg-embreve {
+  background-image: url(/assets/images/bg-embreve.png);
+}
+.embreve {
+  min-height: 770px;
+}
+.embreve h1{
+  color: #FCFC30;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 44px;
+}
+
 
 /*Cor do submenu mobile*/
 .pure-menu-link {
