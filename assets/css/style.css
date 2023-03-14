@@ -355,7 +355,7 @@ border: none;
 
 
 
-/*Páginas Desafios*/
+/*Páginas Desafio Estrela Cadente*/
 .bg-quadrado-desafio {
   min-width: 376px;
   max-width: 410px;
@@ -380,6 +380,12 @@ border: none;
   padding: 20px 30px;
   border: none;
   border-radius: 59px;
+}
+
+
+/*Páginas Desafio Conexão das Galáxias */
+.table-bordered {
+  border-color: #333;
 }
 
 
