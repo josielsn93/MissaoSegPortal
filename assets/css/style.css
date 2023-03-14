@@ -390,7 +390,7 @@ border: none;
 
 /*Páginas Em breve */
 .bg-embreve {
-  background-image: url(/assets/images/bg-embreve.png);
+  background-image: url(../../assets/images/bg-embreve.png);
 }
 .embreve {
   min-height: 770px;
