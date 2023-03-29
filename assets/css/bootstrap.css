@@ -1,0 +1,81 @@
+:root {
+  --bs-white: white;
+  --bs-blue: #465EFF;
+  --bs-yellow: #FCFC30;
+  --bs-purple: #735CC6;
+  --bs-gray: #d9d9d9;
+  --bs-dark-gray: #333;
+}
+
+/* Classes Bootstrap modificadas*/
+.bg-dark {
+    background-color: var(--bs-blue) !important;
+  }
+  .accordion {
+    --bs-accordion-active-color: var(--bs-dark-gray);
+    --bs-accordion-active-bg: #eaeaea;
+    --bs-accordion-btn-focus-border-color: var(--bs-dark-gray);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(51, 51, 51, 0.25);
+    --bs-accordion-border-radius: var(--bs-border-radius-sm);
+  }
+  
+  .btn-warning {
+    --bs-btn-bg: var(--bs-yellow);
+    --bs-btn-border-color: var(--bs-yellow);
+    --bs-btn-hover-bg: #d2d228 !important;
+    --bs-btn-hover-border-color: #d2d228 !important;
+    --bs-btn-active-bg: var(--bs-yellow);
+    --bs-btn-active-border-color: var(--bs-yellow);
+    --bs-btn-disabled-bg: #d2d228;
+    --bs-btn-disabled-border-color: #d2d228;
+      background-color: var(--bs-yellow);
+      border-color: var(--bs-yellow);
+      border-radius: 25px;
+      color: var(--bs-blue);
+      font-weight: 600;
+  }
+  .btn {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vh 20px;
+    box-shadow: 0 4px 6px #00000075;
+  }
+  .btn-danger {
+    background: none;
+    border: none;
+    --bs-btn-bg: none ;
+    --bs-btn-hover-color: var(--bs-dark-gray) ;
+    --bs-btn-hover-bg: none;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-active-bg: var(--bs-white);
+    --bs-btn-active-border-color: var(--bs-white);
+    font-family: 'Gothic',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  
+  }
+  .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background: none;
+  }
+  header .btn:hover {
+    background: none;
+  }
+  .dropdown-menu {
+    border-radius: 0;
+    background-color: rgb(70, 94, 255, 0.8);
+    --bs-dropdown-link-color: var(--bs-white);
+    --bs-dropdown-font-size: 18px
+  }
+  .dropdown-menu[data-bs-popper] {
+    left: -20vh;
+  }
+  .modal-content {
+    background-color: #eaeaea;
+    border-radius: var(--bs-modal-inner-border-radius) !;
+  }
+  .btn-primary {
+    background-color: var(--bs-dark-gray);
+    border-color: var(--bs-dark-gray);
+    --bs-btn-hover-bg: #212121;
+    --bs-btn-hover-border-color: #212121;
+  
+  }

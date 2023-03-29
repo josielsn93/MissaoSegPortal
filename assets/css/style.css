@@ -15,18 +15,56 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --bs-white: white;
+  --bs-blue: #465EFF;
+  --bs-yellow: #FCFC30;
+  --bs-purple: #735CC6;
+  --bs-gray: #d9d9d9;
+  --bs-dark-gray: #333;
+}
+.white {
+  color: var(--bs-white);
+}
+.blue {
+  color: var(--bs-blue)
+}
+.yellow {
+  color: var(--bs-yellow);
+}
+.purple {
+  color: var(--bs-purple);
+}
+.gray {
+  color: var(--bs-dark-gray);
+}
+.bg-blue {
+  background-color: var(--bs-blue);
+}
+.bg-gray {
+  background-color: var(--bs-gray);
+}
+.bg-purple {
+  background-color: var(--bs-purple);
+}
+
+
+
+
+
+
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: #FCFC30;        /* color of the tracking area */
+  background: var(--bs-yellow);        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #465EFF;    /* color of the scroll thumb */
+  background-color: var(--bs-blue);    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid #FCFC30;  /* creates padding around scroll thumb */
+  border: 3px solid var(--bs-yellow);  /* creates padding around scroll thumb */
 }
 body {
   font-family: 'Gothic',Arial, Helvetica, sans-serif;
@@ -46,72 +84,6 @@ section.bg-missaoseg {
   min-height: 80vh;
   min-width: 100%;
 }
-
-
-
-/* Classes Bootstrap modificadas*/
-.bg-dark {
-  background-color: #465EFF !important;
-}
-.accordion {
-  --bs-accordion-active-color: #333;
-  --bs-accordion-active-bg: #eaeaea;
-  --bs-accordion-btn-focus-border-color: #333;
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(51, 51, 51, 0.25);
-  --bs-accordion-border-radius: var(--bs-border-radius-sm);
-}
-
-.btn-warning {
-  --bs-btn-bg: #FCFC30;
-  --bs-btn-border-color: #FCFC30;
-  --bs-btn-hover-bg: #d2d228 !important;
-  --bs-btn-hover-border-color: #d2d228 !important;
-  --bs-btn-active-bg: #FCFC30;
-  --bs-btn-active-border-color: #FCFC30;
-  --bs-btn-disabled-bg: #d2d228;
-  --bs-btn-disabled-border-color: #d2d228;
-    background-color: #FCFC30;
-    border-color: #FCFC30;
-    border-radius: 25px;
-    color: #465EFF;
-    font-weight: 600;
-}
-.btn {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 1vh 20px;
-  box-shadow: 0 4px 6px #00000075;
-}
-.btn-danger {
-  background: none;
-  border: none;
-  --bs-btn-bg: none ;
-  --bs-btn-hover-color: #333 ;
-  --bs-btn-hover-bg: none;
-  --bs-btn-border-color: none;
-  --bs-btn-hover-border-color: none;
-  --bs-btn-active-bg: #fff;
-  --bs-btn-active-border-color: #fff;
-  font-family: 'Gothic',Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-
-}
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-  background: none;
-}
-header .btn:hover {
-  background: none;
-}
-.dropdown-menu {
-  border-radius: 0;
-  background-color: rgb(70, 94, 255, 0.8);
-  --bs-dropdown-link-color: white;
-  --bs-dropdown-font-size: 18px
-}
-.dropdown-menu[data-bs-popper] {
-  left: -20vh;
-}
-
-
 .login-btn {
   position: relative;
   left: 30rem;
@@ -121,17 +93,9 @@ header .btn:hover {
 .logo-missaoseg-banner {
   margin-top: 50vh;
 }
-.white {
-  color: white;
-}
-.blue {
-  color: #465EFF
-}
-.yellow {
-  color: #FCFC30;
-}
+
 .eclipse-bg {
-  background-color: #FCFC30;
+  background-color: var(--bs-yellow);
   border-radius: 15px;
   min-width: 221px;
 }
@@ -152,9 +116,7 @@ header .btn:hover {
 .fs-small {
   font-size: 12px;
 }
-.bg-blue {
-  background-color: #465EFF;
-}
+
 .p-bs {
   padding: 0 15vh;
 }
@@ -174,20 +136,8 @@ header .btn:hover {
 .bold {
   font-family: 'Gothic-bold', Arial, Helvetica, sans-serif;
 }
-.modal-content {
-  background-color: #eaeaea;
-  border-radius: var(--bs-modal-inner-border-radius) !;
-}
-.btn-primary {
-  background-color: #333;
-  border-color: #333;
-  --bs-btn-hover-bg: #212121;
-  --bs-btn-hover-border-color: #212121;
 
-}
-.gray {
-  color: #333;
-}
+
 
 
 
@@ -199,21 +149,21 @@ header img {
   max-width: 300px;
 }
 .navbar-text {
-  color: #fff;
+  color: var(--bs-white);
 }
 .bg-aside {
-  background-color: #465EFF;
+  background-color: var(--bs-blue);
   padding: 0 20vh ;
 }
 aside a {
   font-family: 'Gothic',Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: var(--bs-white);
   font-size: 18px;
   text-decoration: none;
 }
 aside a:hover {
-  color: #333;
+  color: var(--bs-dark-gray);
 }
 aside .btn {
   box-shadow: none;
@@ -229,7 +179,7 @@ aside .btn {
   background-color: #F97A70;
   border-radius: 22px;
   padding: 2vh 3vh;
-  color: white;
+  color: var(--bs-white);
 }
 #estrelas-user {
   padding: 0 20vh;
@@ -239,7 +189,7 @@ aside .btn {
   position: relative;
   left: 0%;
   margin-bottom: 9%;
-  color: #FCFC30;
+  color: var(--bs-yellow);
 }
 .titulo-banner-usuario h1{
   font-size: 44px;
@@ -290,14 +240,14 @@ aside .btn {
   font-weight: 500;
 }
 .bg-titulo-quadro {
-  background-color: #465EFF;
-  color: white;
+  background-color: var(--bs-blue);
+  color: var(--bs-white);
   border-radius: 15px 15px 0 0;
   min-width: 356px;
 
 }
 .corpo-quadro {
-  background-color: #fff;
+  background-color: var(--bs-white);
   border-radius: 0 0 15px 15px;
   min-height: 164px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -318,16 +268,16 @@ aside .btn {
 }
 .meta-desafio {
   font-size: 14px;
-  color: #333;
+  color: var(--bs-dark-gray);
 }
 .pontos-desafio {
-  color: #465EFF;
+  color: var(--bs-blue);
   text-align: end;
   font-size: 14px;
 }
 
 .corpo-quadro-estrelas {
-  background-color: #FCFC30;
+  background-color: var(--bs-yellow);
   min-height: 164px;
   border-radius: 0 0 15px 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -335,7 +285,7 @@ aside .btn {
 }
 .quadro-conta h1 {
   font-size: 40px;
-  color: #465EFF;
+  color: var(--bs-blue);
   font-weight: 600;
 }
 .form-control:disabled {
@@ -344,7 +294,7 @@ border: none;
 }
 .logout a{
   font-size: 24px;
-  color: #333;
+  color: var(--bs-dark-gray);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -359,7 +309,7 @@ border: none;
 .bg-quadrado-desafio {
   min-width: 376px;
   max-width: 410px;
-  background-color: #FCFC30;
+  background-color: var(--bs-yellow);
   border-radius: 21px;
   
 }
@@ -371,17 +321,19 @@ border: none;
 .bg-quadrado-desafio img {
   min-width: 500px;
 }
-.bg-gray {
-  background-color: #d9d9d9;
-}
+
 .btn-blue {
-  background-color: #465EFF;
-  color: #FCFC30;
+  background-color: var(--bs-blue);
+  color: var(--bs-yellow);
   padding: 20px 30px;
   border: none;
   border-radius: 59px;
 }
+.bloco-desafio {
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
 
 
 
@@ -389,7 +341,7 @@ border: none;
 
 /*Páginas Desafio Conexão das Galáxias */
 .table-bordered {
-  border-color: #333;
+  border-color: var(--bs-dark-gray);
 }
 
 
@@ -404,7 +356,7 @@ border: none;
   min-height: 770px;
 }
 .embreve h1{
-  color: #FCFC30;
+  color: var(--bs-yellow);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 44px;
 }
@@ -431,6 +383,12 @@ border: none;
 .pure-menu-link {
   color: #eaeaea !important;
 }
+
+
+
+
+
+
 
 /*Telas Notebooks*/
 @media screen and (max-width: 1400px) {
@@ -466,68 +424,4 @@ border: none;
 
 
 
-/*Telas Mobile*/
-@media screen and (max-width: 700px) {
-  .eclipse-bg {
-    min-width: 100px;
-    min-height: 100px;
-  }
-  .login-btn {
-    left: 0;
-  }
-  .p-bs {
-    padding: 0;
-  }
-  .bg-pf {
-    padding: 0;
-  }
-  header img {
-    max-width: 220px;
-  }
-  .desafios-user {
-    padding: 0 5vh;
-  }
-  #estrelas-user {
-    padding: 0 5vh;
-  }
-  .pure-menu {
-    display: flex;
-  }
-  .bg-space-gift {
-    min-height: 40vh;
-  }
-  .bg-premios-user img {
-    max-width: 60px;
-  }
-  .margin-user {
-    padding: 0 1vh;
-  }
-  .carousel-caption {
-    bottom: 0;
-  }
-  .titulo-banner-usuario h1 {
-    font-size: 22px;
 
-  }
-  .titulo-banner-usuario {
-  margin-bottom: 2%;
-  }
-  .eclipse-bg img {
-    max-width: 365px;
-  }
-  .bg-quadrado-desafio img {
-    width: 330px;
-    min-width: 0;
-  }
-  .titulo-desafio {
-    top: 0;
-    max-height: 500px;
-  }
-  .bg-quadrado-desafio {
-    width: 300px;
-    min-width: 0;
-  }
-  .titulo-desafio h2 {
-    text-align: center;
-  }
-}

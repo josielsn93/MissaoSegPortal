@@ -1,0 +1,65 @@
+/*Telas Mobile*/
+@media screen and (max-width: 700px) {
+    .eclipse-bg {
+      min-width: 100px;
+      min-height: 100px;
+    }
+    .login-btn {
+      left: 0;
+    }
+    .p-bs {
+      padding: 0;
+    }
+    .bg-pf {
+      padding: 0;
+    }
+    header img {
+      max-width: 220px;
+    }
+    .desafios-user {
+      padding: 0 5vh;
+    }
+    #estrelas-user {
+      padding: 0 5vh;
+    }
+    .pure-menu {
+      display: flex;
+    }
+    .bg-space-gift {
+      min-height: 40vh;
+    }
+    .bg-premios-user img {
+      max-width: 60px;
+    }
+    .margin-user {
+      padding: 0 1vh;
+    }
+    .carousel-caption {
+      bottom: 0;
+    }
+    .titulo-banner-usuario h1 {
+      font-size: 22px;
+  
+    }
+    .titulo-banner-usuario {
+    margin-bottom: 2%;
+    }
+    .eclipse-bg img {
+      max-width: 365px;
+    }
+    .bg-quadrado-desafio img {
+      width: 330px;
+      min-width: 0;
+    }
+    .titulo-desafio {
+      top: 0;
+      max-height: 500px;
+    }
+    .bg-quadrado-desafio {
+      width: 300px;
+      min-width: 0;
+    }
+    .titulo-desafio h2 {
+      text-align: center;
+    }
+  }
