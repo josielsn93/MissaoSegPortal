@@ -168,6 +168,9 @@ aside a:hover {
 aside .btn {
   box-shadow: none;
   font-size: 18px;
+  color: var(--bs-white);
+  font-family: 'Gothic',Arial, Helvetica, sans-serif;
+  
 }
 .bg-light-gray {
   background-color: #eaeaea;
@@ -208,17 +211,54 @@ aside .btn {
   background-color: #00EBD0;
   border-radius: 22px;
   padding: 2vh 3vh;
-  color: black;
+  color: #000000;
+  min-height: 310px;
 }
 .bg-premios-user img {
-  max-width: 150px;
+  width: 150px;
+  animation: premiosOut;
+  animation-duration: 0.5s;
+
+}
+.bg-premios-user img:hover {
+    animation: premios;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+@keyframes premios {
+  from {width: 150px}
+  to {width: 180px}
+}
+@keyframes premiosOut {
+  from {width: 180px}
+  to {width: 150px}
 }
 .bg-premios-user a {
   color: black;
 }
+.astronauta {
+  width: 100%;
+  position: relative;
+  animation: voltarAstronauta;
+  animation-duration: 0.5s;
 
-
-
+}
+.astronauta:hover {
+  animation: moverAstronauta;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+}
+@keyframes moverAstronauta {
+  from {bottom: 0}
+  to {bottom: 30px;}
+}
+@keyframes voltarAstronauta {
+  from {bottom: 30px}
+  to {bottom: 0;}
+}
 
 /* Chamadas Desafios página usuario*/
 .bg-desafios-banner {
