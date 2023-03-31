@@ -62,4 +62,12 @@
     .titulo-desafio h2 {
       text-align: center;
     }
+    .bg-desafios-banner {
+      max-width: fit-content;
+      position: relative;
+      left: 70px;
+    }
+    .bg-premios-user {
+      min-height: 200px;
+    }
   }

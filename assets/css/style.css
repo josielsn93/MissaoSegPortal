@@ -359,7 +359,7 @@ border: none;
   max-height: 350px;
 }
 .bg-quadrado-desafio img {
-  min-width: 500px;
+  max-width: 390px;
 }
 
 .btn-blue {
@@ -442,7 +442,20 @@ border: none;
   .bg-space-gift {
     min-height: 75vh;
   }
+  @keyframes premios {
+    from {width: 150px}
+    to {width: 160px}
+  }
+  @keyframes premiosOut {
+    from {width: 160px}
+    to {width: 150px}
+  }
 }
+
+
+
+
+
 
 @media screen and (max-width: 1300px) {
   aside .btn {
