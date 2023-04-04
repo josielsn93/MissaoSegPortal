@@ -347,8 +347,8 @@ border: none;
 
 /*Páginas Desafio Estrela Cadente*/
 .bg-quadrado-desafio {
-  min-width: 376px;
-  max-width: 410px;
+  height: 350px;
+  width: 350px;
   background-color: var(--bs-yellow);
   border-radius: 21px;
   
