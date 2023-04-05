@@ -200,13 +200,8 @@ aside .btn {
 .margin-user {
   padding: 0 20vh;
 }
-.progress, .progress-stacked {
-  border-radius: 0px;
-  --bs-progress-bar-bg: #1DD851;
-}
-.progress-bar {
-  background-color: #1DD851;
-}
+
+
 .bg-premios-user {
   background-color: #00EBD0;
   border-radius: 22px;
@@ -347,10 +342,12 @@ border: none;
 
 /*Páginas Desafio Estrela Cadente*/
 .bg-quadrado-desafio {
-  height: 350px;
-  width: 350px;
+  height: 270px;
+  width: 249px;
   background-color: var(--bs-yellow);
   border-radius: 21px;
+  position: relative;
+  top: 20px;
   
 }
 .titulo-desafio {
@@ -359,7 +356,10 @@ border: none;
   max-height: 350px;
 }
 .bg-quadrado-desafio img {
-  max-width: 390px;
+  max-width: 300px;
+  margin-top: 30px;
+  position: relative;
+  right: 20px;
 }
 
 .btn-blue {
@@ -369,14 +369,83 @@ border: none;
   border: none;
   border-radius: 59px;
 }
-.bloco-desafio {
-  border-radius: 15px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.progress-bar {
+  background-color: #d9d9d9;
+  color: var(--bs-progress-bar-color);
+}
+.progress, .progress-stacked {
+  transform: rotate(270deg);
+  height: 30px;
+  border-radius: 0;
+  width: 200px;
+  position: relative;
+  right: 70px;
+  top: 50px;
+}
+.text-bg-warning {
+  background-color: #1DD851 !important;
 
 }
-
-
-
+.bg-posicao {
+  background-color: #FCFC30;
+  background-image: url(../../assets/images/bg-posicao.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.posicao-atual {
+  position: relative;
+  bottom: 69px;
+  right: 50px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-8 {
+  font-size: 8px;
+}
+.mensagem-desafio {
+ position: relative;
+ left: 30px;
+}
+.zona-premiacao {
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+  border-bottom: 1px dashed var(--bs-blue);
+  width: fit-content;
+}
+.area-desafio {
+  background-image: url(../../assets/images/bg-desafios.png);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+.bg-green {
+  background-color: #1DD851;
+  border-radius: 40px 0 0 40px;
+}
+.btn-regulamento {
+  position: relative;
+  top: 190px;
+}
+.bg-estrela-cadente {
+  background-image: url(../../assets/images/estrela-candente-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo-campanha {
+  position: relative;
+  left: 200px;
+}
+.text-bg-titulo-campanha {
+  background: linear-gradient(90deg, #465EFF 0%, rgba(70, 94, 255, 0) 100%);
+}
 
 
 /*Páginas Desafio Conexão das Galáxias */
