@@ -380,7 +380,7 @@ border: none;
   width: 200px;
   position: relative;
   right: 70px;
-  top: 50px;
+  top: 90px;
 }
 .text-bg-warning {
   background-color: #1DD851 !important;
@@ -395,8 +395,7 @@ border: none;
 }
 .posicao-atual {
   position: relative;
-  bottom: 69px;
-  right: 50px;
+  bottom: 30px;
 }
 .fs-14 {
   font-size: 14px;
@@ -414,7 +413,7 @@ border: none;
 .zona-premiacao {
   position: relative;
   left: 50px;
-  bottom: 50px;
+  bottom: 15px;
   border-bottom: 1px dashed var(--bs-blue);
   width: fit-content;
 }
@@ -422,6 +421,7 @@ border: none;
   background-image: url(../../assets/images/bg-desafios.png);
   background-position: start;
   background-repeat: no-repeat;
+  
 }
 .bg-overlay {
   background: rgba(0, 0, 0, 0.8);
@@ -448,10 +448,53 @@ border: none;
 }
 
 
-/*Páginas Desafio Conexão das Galáxias */
-.table-bordered {
-  border-color: var(--bs-dark-gray);
+
+
+/*Páginas Conquistando Planetas */
+#icone-conquistando {
+  max-width: 335px;
+  min-width: 0;
 }
+.bg-conquistando-planetas {
+  background-image: url(../../assets/images/bg-conquistando-planetas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.area-desafio-conquistando-planetas {
+  background-image: url(../../assets/images/bg-desafio-conquistando-planetas.png);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+.bg-posicao-conquistando-planetas {
+  background-color: #FCFC30;
+  background-image: url(../../assets/images/bg-posicao-conquistando-planetas.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.spec-desafio {
+  min-height: 284px;
+}
+
+
+
+/*Páginas Desafio Conexão das Galáxias */
+.area-desafio-conexao-galaxias {
+  background-image: url(../../assets/images/bg-desafio-conexao-galaxias.png);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+.bg-posicao-conexao-galaxias {
+  background-color: #FCFC30;
+  background-image: url(../../assets/images/bg-posicao-conexao.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.bg-conexao-galaxias {
+  background-image: url(../../assets/images/bg-conexao-galaxias.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 
@@ -475,11 +518,7 @@ border: none;
 
 
 
-/*Páginas Conquistando Planetas */
-#icone-conquistando {
-  max-width: 335px;
-  min-width: 0;
-}
+
 
 
 
