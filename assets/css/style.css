@@ -500,6 +500,30 @@ border: none;
 
 
 
+
+/*Páginas Campanha Fez, Decolou */
+.bg-fez-decolou {
+  background-image: url(../../assets/images/fez-decolou-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.area-desafio-fez-decolou {
+  background-image: url(../../assets/images/bg-desafio-fez-decolou.png);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+.bg-posicao-fez-decolou {
+  background-color: #FCFC30;
+  background-image: url(../../assets/images/bg-posicao-fez-decolou.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+
+
+
+
 /*Páginas Em breve */
 .bg-embreve {
   background-image: url(../../assets/images/bg-embreve.png);
