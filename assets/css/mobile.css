@@ -91,4 +91,18 @@
     .bg-green {
       padding: 10px;
     }
+    .progress, .progress-stacked {
+      width: 160px;
+      top: 25px;
+      right: 55px;
+    }
+    .bg-estrela-cadente {
+      padding: 20px 0;
+    }
+    .bg-fez-decolou {
+      padding: 20px 0;
+    }
+    .bg-conquistando-planetas {
+      padding: 20px 0;
+    }
   }

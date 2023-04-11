@@ -446,7 +446,9 @@ border: none;
 .text-bg-titulo-campanha {
   background: linear-gradient(90deg, #465EFF 0%, rgba(70, 94, 255, 0) 100%);
 }
-
+.limitador {
+  max-width: 975px;
+}
 
 
 
