@@ -47,7 +47,9 @@
 .bg-purple {
   background-color: var(--bs-purple);
 }
-
+.bg-yellow {
+  background-color: var(--bs-yellow);
+}
 
 
 
@@ -136,7 +138,9 @@ section.bg-missaoseg {
 .bold {
   font-family: 'Gothic-bold', Arial, Helvetica, sans-serif;
 }
-
+.accordion {
+  --bs-accordion-active-bg: var(--bs-yellow) !important;
+}
 
 
 
@@ -213,6 +217,14 @@ aside .btn {
   color: #000000;
   min-height: 310px;
 }
+.bg-fale-conosco-user {
+  background-color: #735CC6;
+  border-radius: 22px;
+  padding: 2vh 3vh;
+  color: #fff;
+
+
+}
 .bg-premios-user img {
   width: 150px;
   animation: premiosOut;
@@ -258,6 +270,20 @@ aside .btn {
   from {bottom: 30px}
   to {bottom: 0;}
 }
+.border-fale-conosco {
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.border-fale-conosco:hover {
+  border: 2px solid var(--bs-yellow);
+
+}
+.border-fale-conosco a{
+  color: #fff;
+  text-decoration: none;
+}
+
 
 
 
