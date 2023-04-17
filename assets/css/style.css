@@ -159,7 +159,7 @@ aside a {
   font-family: 'Gothic',Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: var(--bs-white);
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
 }
 aside a:hover {
@@ -167,7 +167,7 @@ aside a:hover {
 }
 aside .btn {
   box-shadow: none;
-  font-size: 18px;
+  font-size: 14px;
   color: var(--bs-white);
   font-family: 'Gothic',Arial, Helvetica, sans-serif;
   
@@ -179,20 +179,24 @@ aside .btn {
   padding: 0 25vh;
 }
 .bg-estrelas-user {
-  background-color: #F97A70;
+  background-image: url(/assets/images/bg-estrelas-acumuldas.jpg);
   border-radius: 22px;
   padding: 2vh 3vh;
+  background-position: center;
+  background-size: cover;
   color: var(--bs-white);
 }
 #estrelas-user {
   padding: 0 20vh;
 }
-.titulo-banner-usuario {
+.titulo-banner-usuario h1{
   font-family: 'Gothic-bold';
   position: relative;
   left: 0%;
   margin-bottom: 9%;
-  color: var(--bs-yellow);
+  color: #333;
+  text-shadow: 2px 2px 5px var(--bs-gray);
+
 }
 .titulo-banner-usuario h1{
   font-size: 44px;
@@ -255,6 +259,10 @@ aside .btn {
   to {bottom: 0;}
 }
 
+
+
+
+
 /* Chamadas Desafios página usuario*/
 .bg-desafios-banner {
   background-color: #735CC6;
@@ -263,6 +271,10 @@ aside .btn {
 .pure-menu {
   display: none;
 }
+
+
+
+
 
 
 
@@ -449,8 +461,15 @@ border: none;
 .limitador {
   max-width: 975px;
 }
-
-
+.descricao-desafio{
+  min-width: 372px;
+}
+.descricao-desafio p{
+  width: 300px;
+}
+.regulamento {
+  min-width: 260px;
+}
 
 /*Páginas Conquistando Planetas */
 #icone-conquistando {
