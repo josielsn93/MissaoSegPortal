@@ -105,4 +105,26 @@
     .bg-conquistando-planetas {
       padding: 20px 0;
     }
+    .media img {
+      max-width: 239px
+      }
+      .date-comment {
+      left: 1em;
+      font-size: 10px
+      }
+      .border-comments {
+      padding: 12px !important;
+      }
+      .comment {
+      font-size: 12px
+      }
+      .border-comments {
+      border-radius: 20px
+      }
+      .text p {
+      font-size: 15px
+      }
+      .icon-social {
+      width: 26px
+      }
   }

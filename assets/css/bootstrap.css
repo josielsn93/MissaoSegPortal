@@ -79,3 +79,17 @@
     --bs-btn-hover-border-color: #212121;
   
   }
+  .btn-info {
+    background-color: var(--bs-blue);
+    color: var(--bs-yellow);
+    border: none;
+    border-radius: 25px;
+  }
+  .btn-info:hover {
+    background-color: var(--bs-blue);
+  }
+  .form-control {
+    border-radius: 0;
+    padding: 10px;
+    font-size: 14px;
+  }

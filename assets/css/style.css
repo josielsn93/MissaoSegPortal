@@ -625,6 +625,45 @@ border: none;
 
 
 
+/*Página Rede Social*/
+.border-social {
+  border-radius: 13px;
+}
+.icon-social{
+  width: 40px;
+}
+.foto-social img {
+  max-width: 100px;
+}
+.media img {
+  max-width: 680px;
+}
+.border-line-blue-social {
+  border-top: 1px solid var(--bs-blue);
+  border-bottom: 1px solid var(--bs-blue);
+  padding: 3px 0;
+}
+.hover-social i:hover {
+  color: var(--bs-yellow);
+}
+.hover-social i:visited  {
+  color: var(--bs-yellow);
+}
+.user-comment-photo {
+  width: 50px;
+}
+.border-comments {
+  border-radius: 45px;
+}
+.comment {
+  font-size: 14px;
+}
+.date-comment {
+  position: relative;
+  left: 24em;
+}
+
+
 /*Telas Notebooks*/
 @media screen and (max-width: 1400px) {
   .login-btn {
