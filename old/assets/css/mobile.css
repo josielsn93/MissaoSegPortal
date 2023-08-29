@@ -1,0 +1,130 @@
+/*Telas Mobile*/
+@media screen and (max-width: 700px) {
+    .eclipse-bg {
+      min-width: 100px;
+      min-height: 100px;
+    }
+    .login-btn {
+      left: 0;
+    }
+    .p-bs {
+      padding: 0;
+    }
+    .bg-pf {
+      padding: 0;
+    }
+    header img {
+      max-width: 220px;
+    }
+    .desafios-user {
+      padding: 0 5vh;
+    }
+    #estrelas-user {
+      padding: 0 5vh;
+    }
+    .pure-menu {
+      display: flex;
+    }
+    .bg-space-gift {
+      min-height: 40vh;
+    }
+    .bg-premios-user img {
+      max-width: 60px;
+    }
+    .margin-user {
+      padding: 0 1vh;
+    }
+    .carousel-caption {
+      bottom: 0;
+    }
+    .titulo-banner-usuario h1 {
+      font-size: 22px;
+  
+    }
+    .titulo-banner-usuario {
+    margin-bottom: 2%;
+    }
+    .eclipse-bg img {
+      max-width: 365px;
+    }
+    .bg-quadrado-desafio img {
+      width: 185px;
+      min-width: 0;
+      margin-top: 0;
+    }
+    .titulo-desafio {
+      top: 0;
+      max-height: 500px;
+    }
+    .bg-quadrado-desafio {
+      width: 150px;
+      height: 150px;
+    }
+    .titulo-desafio h2 {
+      text-align: center;
+    }
+    .bg-desafios-banner {
+      max-width: fit-content;
+      position: relative;
+      left: 70px;
+    }
+    .bg-premios-user {
+      min-height: 200px;
+    }
+    .titulo-campanha {
+      left: 0;
+    }
+    .bg-quadrado-desafio {
+      top: 0;
+    }
+    .btn-regulamento {
+      margin: 50px 0;
+      top: 0;
+    }
+    .area-desafio {
+      background-size: cover;
+      background-position: left;
+    }
+    .bg-overlay {
+      padding: 20px 0;
+    }
+    .bg-green {
+      padding: 10px;
+    }
+    .progress, .progress-stacked {
+      width: 160px;
+      top: 25px;
+      right: 55px;
+    }
+    .bg-estrela-cadente {
+      padding: 20px 0;
+    }
+    .bg-fez-decolou {
+      padding: 20px 0;
+    }
+    .bg-conquistando-planetas {
+      padding: 20px 0;
+    }
+    .media img {
+      max-width: 239px
+      }
+      .date-comment {
+      left: 1em;
+      font-size: 10px
+      }
+      .border-comments {
+      padding: 12px !important;
+      }
+      .comment {
+      font-size: 12px
+      }
+      .border-comments {
+      border-radius: 20px
+      }
+      .text p {
+      font-size: 15px
+      }
+      .icon-social {
+      width: 26px
+      }
+  }

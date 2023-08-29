@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/mobile.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <script src="js/script.js"></script>
+  <!-- CDN Pure CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+
+  <!-- Fontawesome -->
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.4.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.4.0-web/css/brands.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.4.0-web/css/solid.css"> 
+
+  <title>Missão Seg - Portal</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <div class="col-sm-6 col-lg-6 d-flex justify-content-center">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/images/missao-seg-logo-user.png" alt="" class="w-100">
+          </a>
+        </div>
+        <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+          <!-- <a href="#" class="pure-menu-link pure-menu-heading">Yahoo</a> -->
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+              <a href="minha-conta.html" class="pure-menu-link">Minha Conta</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Prêmios</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Pontuação</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Extrato</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Desafios</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Quiz</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Roleta</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Regulamento</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Resgate</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="pure-menu-link">Rede Social</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 d-none d-lg-flex justify-content-center">
+          <span class="navbar-text">
+            <div class="d-flex align-items-center">
+              <p class="mb-0 me-3 fw-bold">Olá, User</p>
+              <div class="dropdown">
+                <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="../assets/images/notificacao.png" alt="" class="w-auto"></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Você tem uma nova mensagem</a></li>
+                </ul>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <aside class="bg-aside d-none d-lg-flex">
+    <div class="container-fluid">
+      <div class="row justify-content-evenly">
+        <div class="col-lg-auto py-3 d-flex align-items-center">
+          <!-- Dropdow Minha conta -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Minha Conta
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Prêmios</a></li>
+              <li><a class="dropdown-item" href="#">Metas</a></li>
+              <li><a class="dropdown-item" href="#">Pontuação</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="minha-conta.html">Minha Conta</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-auto py-3 d-flex align-items-center">
+          <a href="#">Extrato</a>
+        </div>
+        <div class="col-lg-auto py-3 d-flex align-items-center">
+          <!-- Dropdow Desafios -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Desafios
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Quiz</a></li>
+              <li><a class="dropdown-item" href="#">Roleta</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-auto py-3 d-flex align-items-center">
+          <a href="#">Regulamento</a>
+        </div>
+        <div class="col-lg-auto py-3 d-flex align-items-center">
+          <a href="#">Resgate</a>
+        </div>
+        <div class="col-lg-auto py-3 d-flex align-items-center">
+          <a href="#">Rede Social</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <main class="bg-light-gray">
+    <!-- Section para usuario postar -->
+    <section class="py-4">
+        <div class="container d-flex justify-content-center">
+            <div class="row justify-content-center w-75 bg-gray border-social py-3">
+                    <div class="col-lg-2 d-flex align-items-center justify-content-center">
+                        <div class="foto-social">
+                            <img src="/assets/images/social/user.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 d-column">
+                        <div class="post">
+                            <div>
+                                <p class="fs-2 mb-0 fw-bold">O que você deseja postar?</p>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva aqui o seu texto"></textarea>
+                            </div>
+                            <div class="d-flex align-items-center mt-2">
+                                <a href="#" style="text-decoration: none;">
+                                    <img src="/assets/images/social/img.png" alt="" class="icon-social">
+                                    <img src="/assets/images/social/video.png" alt="" class="icon-social">
+                                </a>
+                                <p class="mb-0 fw-bold ms-2">Carregar foto ou vídeo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 d-flex justify-content-end">
+                        <button type="button" class="btn btn-info">Publicar</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section dos posts | Cada section é uma postagem -->
+    <section class="pb-3">
+        <div class="container d-flex justify-content-center">
+            <div class="row justify-content-center w-75 bg-gray border-social py-3">
+                <div class="col-lg-10">
+                    <div class="user-post-spec d-flex">
+                        <img src="/assets/images/social/user-feed.png" alt="">
+                        <div class="user-post-date flex-column mt-3">
+                            <p class="mb-0 fw-bold lh-1">Thiago Durães</p>
+                            <span class="mb-0 fs-small fw-light">Ontem às 14h36</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="user-post-content my-3">
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex veritatis molestiae exercitationem distinctio aspernatur enim pariatur repudiandae? Numquam vitae excepturi provident. Ad, eveniet a culpa qui quam eum iure?</p>
+                        </div>
+                        <div class="media">
+                            <img src="/assets/images/social/img-exp.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="feedback-likes d-inline-flex">
+                        <i class="fa-solid fa-heart yellow me-2"></i>
+                        <p class="mb-0 fs-small">Paulo Matos e outras 4 pessoas curtiram</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-flex justify-content-end">
+                    <div class="feedback-coments d-inline-flex">
+                        <i class="fa-regular fa-comment blue me-2"></i>
+                        <p class="mb-0 fs-small">1 comentário</p>
+                    </div>
+                </div>
+                <div class="col-lg-10 border-line-blue-social my-3 d-inline-flex justify-content-evenly">
+                    <a href="#" class="blue hover-social">
+                        <div class="curtir d-inline-flex align-items-center">
+                            <i class="fa-regular fa-heart fs-1 me-2"></i>
+                            <p class="mb-0 fw-bold">Curtir</p>
+                        </div>
+                    </a>
+                    <a href="#" class="blue">
+                        <div class="comentar d-inline-flex align-items-center">
+                            <i class="fa-regular fa-comment fs-1 me-2"></i>
+                            <p class="mb-0 fw-bold">Comentar</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-10">
+                    <div class="user-comentar d-inline-flex align-items-center">
+                        <img src="/assets/images/social/user.png" alt="" class="user-comment-photo me-2">
+                        <div class="d-column-flex justify-content-between caixa-comentario bg-white border-comments py-2 px-5">
+                            <div class="d-inline-flex align-items-center">
+                                <p class="mb-0 fw-bold">Frederico Galling</p>
+                                <p class="mb-0 fs-small fw-light date-comment">Ontem às 18h15</p>
+                            </div>
+                            <div>
+                                <p class="mb-0 comment">Quia, velit sed ea saepe quisquam temporibus veniam dicta ad accusantium, quos, vel eos reprehenderit!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 d-inline-flex justify-content-end mt-3">
+                    <div class="ver-mais-comentarios">
+                        <a href="#" style="text-decoration: none;">
+                            <p class="mb-0 fw-bold">Ver mais comentários</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Outro post -->
+    <section class="pb-3">
+        <div class="container d-flex justify-content-center">
+            <div class="row justify-content-center w-75 bg-gray border-social py-3">
+                <div class="col-lg-10">
+                    <div class="user-post-spec d-flex">
+                        <img src="/assets/images/social/user-feed.png" alt="">
+                        <div class="user-post-date flex-column mt-3">
+                            <p class="mb-0 fw-bold lh-1">Thiago Durães</p>
+                            <span class="mb-0 fs-small fw-light">Ontem às 14h36</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="user-post-content my-3">
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex veritatis molestiae exercitationem distinctio aspernatur enim pariatur repudiandae? Numquam vitae excepturi provident. Ad, eveniet a culpa qui quam eum iure?</p>
+                        </div>
+                        <div class="media">
+                            <img src="/assets/images/social/img-exp.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="feedback-likes d-inline-flex">
+                        <i class="fa-solid fa-heart yellow me-2"></i>
+                        <p class="mb-0 fs-small">Paulo Matos e outras 4 pessoas curtiram</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-flex justify-content-end">
+                    <div class="feedback-coments d-inline-flex">
+                        <i class="fa-regular fa-comment blue me-2"></i>
+                        <p class="mb-0 fs-small">1 comentário</p>
+                    </div>
+                </div>
+                <div class="col-lg-10 border-line-blue-social my-3 d-inline-flex justify-content-evenly">
+                    <a href="#" class="blue hover-social">
+                        <div class="curtir d-inline-flex align-items-center">
+                            <i class="fa-regular fa-heart fs-1 me-2"></i>
+                            <p class="mb-0 fw-bold">Curtir</p>
+                        </div>
+                    </a>
+                    <a href="#" class="blue">
+                        <div class="comentar d-inline-flex align-items-center">
+                            <i class="fa-regular fa-comment fs-1 me-2"></i>
+                            <p class="mb-0 fw-bold">Comentar</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-10">
+                    <div class="user-comentar d-inline-flex align-items-center">
+                        <img src="/assets/images/social/user.png" alt="" class="user-comment-photo me-2">
+                        <div class="d-column-flex justify-content-between caixa-comentario bg-white border-comments py-2 px-5">
+                            <div class="d-inline-flex align-items-center">
+                                <p class="mb-0 fw-bold">Frederico Galling</p>
+                                <p class="mb-0 fs-small fw-light date-comment">Ontem às 18h15</p>
+                            </div>
+                            <div>
+                                <p class="mb-0 comment">Quia, velit sed ea saepe quisquam temporibus veniam dicta ad accusantium, quos, vel eos reprehenderit!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 d-inline-flex justify-content-end mt-3">
+                    <div class="ver-mais-comentarios">
+                        <a href="#" style="text-decoration: none;">
+                            <p class="mb-0 fw-bold">Ver mais comentários</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+  <footer class="bg-blue white py-3">
+    <div class="container">
+      <div class="row align-items-center justify-content-evenly">
+        <div class="col-lg-6 d-flex align-items-center justify-content-center px-0 py-2">
+          <p class="fs-small mb-0">© Copyright 2023 - BRASILSEG COMPANHIA DE SEGUROS</p>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center py-2">
+          <p class="fs-small mb-0">
+            <a href=" #" target="_blank" class="white me-2">
+              Privacidade e termos</a>
+            <a href="#" target="_blank" class="white me-2">
+              Regulamento</a>
+            <a href="#" target="_blank" class="white">
+              Ajuda</a>
+          </p>
+        </div>
+        <div class="col-lg-2 d-flex justify-content-center align-items-center py-2">
+          <div class="redes-sociais">
+            <a href="#">
+              <img src="../assets/images/facebook.png" alt="" class="me-2" title="Facebook">
+            </a>
+            <a href="#">
+              <img src="../assets/images/youtube.png" alt="" class="me-2" title="YouTube">
+            </a>
+            <a href="#">
+              <img src="../assets/images/linkedin.png" alt="" title="LinkedIn">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

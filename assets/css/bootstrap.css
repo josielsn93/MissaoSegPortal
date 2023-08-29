@@ -12,13 +12,20 @@
     background-color: var(--bs-blue) !important;
   }
   .accordion {
-    --bs-accordion-active-color: var(--bs-dark-gray);
-    --bs-accordion-active-bg: #eaeaea;
+    --bs-accordion-active-color: var(--bs-yellow);
+    --bs-accordion-active-bg: var(--bs-yellow);
     --bs-accordion-btn-focus-border-color: var(--bs-dark-gray);
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(51, 51, 51, 0.25);
     --bs-accordion-border-radius: var(--bs-border-radius-sm);
+    --bs-accordion-border-color: var(--bs-yellow);
+    --bs-accordion-active-bg: #000;
+    --bs-accordion-bg: var(--bs-yellow);
   }
   
+  .accordion-button {
+    background-color: #000;
+    color: var(--bs-yellow);
+  }
   .btn-warning {
     --bs-btn-bg: var(--bs-yellow);
     --bs-btn-border-color: var(--bs-yellow);
@@ -30,7 +37,7 @@
     --bs-btn-disabled-border-color: #d2d228;
       background-color: var(--bs-yellow);
       border-color: var(--bs-yellow);
-      border-radius: 25px;
+      border-radius: 30px;
       color: var(--bs-blue);
       font-weight: 600;
   }
@@ -88,8 +95,46 @@
   .btn-info:hover {
     background-color: var(--bs-blue);
   }
+  .btn-success {
+    background-color: #1DD851;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+  }
   .form-control {
     border-radius: 0;
     padding: 10px;
     font-size: 14px;
   }
+  .fw-light {
+  font-family: 'Roboto-light', sans-serif;
+  }
+  .form-check-input:checked {
+    background-color: #1DD851;
+    border: 3px solid #ccc;
+  }
+  .form-check-input {
+    width: 5rem !important;
+    height: 3rem !important;
+  }
+  .form-check-input :hover {
+    background-color: none;
+    color: none;
+    border: none;
+  }
+  .check-banners {
+    width: 3rem !important;
+    height: 2rem !important;
+    background-color: #EB4900;
+  }
+  .form-switch .form-check-input {
+    --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+  }
+  /* .form-switch .form-check-input:checked {
+    --bs-form-switch-bg: url(/assets/images/eclipse-green.svg) ;
+  }
+  .form-switch .form-check-input:checked {
+    --bs-form-check-bg-image: url(/assets/images/eclipse-green.svg);
+
+  } */
+  

@@ -42,7 +42,7 @@
   
     }
     .titulo-banner-usuario {
-    margin-bottom: 2%;
+    margin-bottom: -10%;
     }
     .eclipse-bg img {
       max-width: 365px;
@@ -65,8 +65,6 @@
     }
     .bg-desafios-banner {
       max-width: fit-content;
-      position: relative;
-      left: 70px;
     }
     .bg-premios-user {
       min-height: 200px;
@@ -127,4 +125,33 @@
       .icon-social {
       width: 26px
       }
-  }
+      .reposition-mark-stars {
+        left: 0;
+      }
+      .border-campanha-left {
+        border-right: 1.5rem  solid #465EFF;
+        margin-bottom: 1rem;
+      }
+      .border-campanha-right {
+        border: none;
+      }
+      .border-fale-conosco {
+        margin-bottom: 1rem;
+      }
+      .p-bs-faq {
+        padding: 0 4vh;
+      }
+      .titulo-campanha {
+        font-size: 1.5rem;
+      }
+      .bg-estrela-cadente {
+        min-height: 12rem;
+      }
+      .tabela-banners {
+        min-height: 77vw;
+      }
+      .desafios {
+        font-size: 2rem;
+        top: 7px;
+      }
+    }

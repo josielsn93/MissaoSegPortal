@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .container {
+      overflow: hidden;
+    }
+
+    .row {
+      white-space: nowrap;
+      transition: transform .5s ease-in-out;
+    }
+
+    .col {
+      display: inline-block;
+      width: calc(100% / 6);
+    }
+  </style>
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+    </div>
+  </div>
+</body>
+<script>
+  var numImgs = 3;
+  var imgSrc = "https://play-lh.googleusercontent.com/2EA71-TRMKp1jUxOc6u-v1VUe5kDDznC4BdU6W2OMgxT3d-GQHEPNDshREQMSVIem3I"; // exemplo de link para imagem
+
+  for (var i = 0; i < numImgs; i++) {
+    $('.row').append('<div class="col"><img src="' + imgSrc + '"></div>');
+  }
+
+</script>
+<script>
+  function loopImages() {
+    setInterval(function () {
+      var firstCol = $('.col:first-child');
+      $('.row').animate({ marginLeft: '-=' + firstCol.width() }, 500, function () {
+        $('.row').append(firstCol);
+        $('.row').css('margin-left', 0);
+      });
+    }, 2000);
+  }
+
+  $(document).ready(function () {
+    loopImages();
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</html>

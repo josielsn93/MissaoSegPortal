@@ -1,0 +1,715 @@
+@font-face{
+  font-family: 'Gothic';
+  src: url(../../assets/fonts/GOTHIC.TTF);
+}
+@font-face{
+  font-family: 'Gothic-itallic';
+  src: url(../../assets/fonts/GOTHICI.TTF);
+}
+@font-face{
+  font-family: 'Gothic-bold';
+  src: url(../../assets/fonts/GOTHICB.TTF);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bs-white: white;
+  --bs-blue: #465EFF;
+  --bs-yellow: #FCFC30;
+  --bs-purple: #735CC6;
+  --bs-gray: #d9d9d9;
+  --bs-dark-gray: #333;
+}
+.white {
+  color: var(--bs-white);
+}
+.blue {
+  color: var(--bs-blue)
+}
+.yellow {
+  color: var(--bs-yellow);
+}
+.purple {
+  color: var(--bs-purple);
+}
+.gray {
+  color: var(--bs-dark-gray);
+}
+.bg-blue {
+  background-color: var(--bs-blue);
+}
+.bg-gray {
+  background-color: var(--bs-gray);
+}
+.bg-purple {
+  background-color: var(--bs-purple);
+}
+.bg-yellow {
+  background-color: var(--bs-yellow);
+}
+
+
+
+
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--bs-yellow);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--bs-blue);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid var(--bs-yellow);  /* creates padding around scroll thumb */
+}
+body {
+  font-family: 'Gothic',Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+h1 {
+  font-weight: 100;
+}
+p, a, ul, span, button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+section.bg-missaoseg {
+  background-image: url(../../assets/images/missaoseg-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  min-width: 100%;
+}
+.login-btn {
+  position: relative;
+  left: 30rem;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.logo-missaoseg-banner {
+  margin-top: 50vh;
+}
+
+.eclipse-bg {
+  background-color: var(--bs-yellow);
+  border-radius: 15px;
+  min-width: 221px;
+}
+
+.bg-start-space {
+  background-color: #000;
+  margin-bottom: -10vh;
+}
+.bg-space-gift {
+  background-image: url(../../assets/images/space-gifts.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 10vh;
+  min-height: 50vh;
+  border-top: 1px solid var(--bs-yellow)
+}
+
+.fs-small {
+  font-size: 12px;
+}
+
+.p-bs {
+  padding: 0 15vh;
+}
+.p-bs-faq {
+  padding: 0 10vh;
+}
+.bg-pf {
+  background-image: url(../../assets/images/pf-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 10vh;
+}
+.fst-italic {
+  font-family: 'Gothic-itallic', Arial, Helvetica, sans-serif;
+}
+.bold {
+  font-family: 'Gothic-bold', Arial, Helvetica, sans-serif;
+}
+.accordion {
+  --bs-accordion-active-bg: var(--bs-yellow) !important;
+}
+
+
+
+
+/*Página Usuário logado*/
+.bg-body-tertiary {
+  background-color:#1A1817 !important;
+}
+header img {
+  max-width: 300px;
+}
+.navbar-text {
+  color: var(--bs-white);
+}
+.bg-aside {
+  background-color: var(--bs-blue);
+  padding: 0 20vh ;
+}
+aside a {
+  font-family: 'Gothic',Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: var(--bs-white);
+  font-size: 14px;
+  text-decoration: none;
+}
+aside a:hover {
+  color: var(--bs-dark-gray);
+}
+aside .btn {
+  box-shadow: none;
+  font-size: 14px;
+  color: var(--bs-white);
+  font-family: 'Gothic',Arial, Helvetica, sans-serif;
+  
+}
+.bg-light-gray {
+  background-color: #eaeaea;
+}
+.desafios-user{
+  padding: 0 25vh;
+}
+.bg-estrelas-user {
+  background-image: url(/assets/images/bg-estrelas-acumuldas.jpg);
+  border-radius: 22px;
+  padding: 2vh 3vh;
+  background-position: center;
+  background-size: cover;
+  color: var(--bs-white);
+}
+#estrelas-user {
+  padding: 0 20vh;
+}
+.titulo-banner-usuario h1{
+  font-family: 'Gothic-bold';
+  position: relative;
+  left: 0%;
+  margin-bottom: 9%;
+  color: #333;
+  text-shadow: 2px 2px 5px var(--bs-gray);
+
+}
+.titulo-banner-usuario h1{
+  font-size: 44px;
+}
+.margin-user {
+  padding: 0 20vh;
+}
+
+
+.bg-premios-user {
+  background-color: #00EBD0;
+  border-radius: 22px;
+  padding: 2vh 3vh;
+  color: #000000;
+  min-height: 310px;
+}
+.bg-fale-conosco-user {
+  background-color: #735CC6;
+  border-radius: 22px;
+  padding: 2vh 3vh;
+  color: #fff;
+
+
+}
+.bg-premios-user img {
+  width: 150px;
+  animation: premiosOut;
+  animation-duration: 0.5s;
+
+}
+.bg-premios-user img:hover {
+    animation: premios;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+@keyframes premios {
+  from {width: 150px}
+  to {width: 180px}
+}
+@keyframes premiosOut {
+  from {width: 180px}
+  to {width: 150px}
+}
+.bg-premios-user a {
+  color: black;
+}
+.astronauta {
+  width: 100%;
+  position: relative;
+  animation: voltarAstronauta;
+  animation-duration: 0.5s;
+
+}
+.astronauta:hover {
+  animation: moverAstronauta;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+}
+@keyframes moverAstronauta {
+  from {bottom: 0}
+  to {bottom: 30px;}
+}
+@keyframes voltarAstronauta {
+  from {bottom: 30px}
+  to {bottom: 0;}
+}
+.border-fale-conosco {
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.border-fale-conosco:hover {
+  border: 2px solid var(--bs-yellow);
+
+}
+.border-fale-conosco a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* Chamadas Desafios página usuario*/
+.bg-desafios-banner {
+  background-color: #222120;
+  border-radius: 22px;
+}
+.pure-menu {
+  display: none;
+}
+
+
+
+
+
+
+
+/* Página Minha Conta*/
+.minha-conta h1 {
+  font-size: 26px;
+}
+.minha-conta h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.bg-titulo-quadro {
+  background-color: var(--bs-blue);
+  color: var(--bs-white);
+  border-radius: 15px 15px 0 0;
+  min-width: 356px;
+
+}
+.corpo-quadro {
+  background-color: var(--bs-white);
+  border-radius: 0 0 15px 15px;
+  min-height: 164px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%
+
+}
+.corpo-quadro li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.meta-positiva {
+  color: #009E8C;
+  font-weight: 600;
+}
+.meta-negativa {
+  color: #EB4900;
+  font-weight: 600;
+}
+.meta-desafio {
+  font-size: 14px;
+  color: var(--bs-dark-gray);
+}
+.pontos-desafio {
+  color: var(--bs-blue);
+  text-align: end;
+  font-size: 14px;
+}
+
+.corpo-quadro-estrelas {
+  background-color: var(--bs-yellow);
+  min-height: 164px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 356px;
+}
+.quadro-conta h1 {
+  font-size: 40px;
+  color: var(--bs-blue);
+  font-weight: 600;
+}
+.form-control:disabled {
+background-color: #eaeaea; 
+border: none; 
+}
+.logout a{
+  font-size: 24px;
+  color: var(--bs-dark-gray);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.col-form-label {
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Páginas Desafio Estrela Cadente*/
+.bg-quadrado-desafio {
+  height: 270px;
+  width: 249px;
+  background-color: var(--bs-yellow);
+  border-radius: 21px;
+  position: relative;
+  top: 20px;
+  
+}
+.titulo-desafio {
+  position: relative;
+  top: -10vh;
+  max-height: 350px;
+}
+.bg-quadrado-desafio img {
+  max-width: 300px;
+  margin-top: 30px;
+  position: relative;
+  right: 20px;
+}
+
+.btn-blue {
+  background-color: var(--bs-blue);
+  color: var(--bs-yellow);
+  padding: 20px 30px;
+  border: none;
+  border-radius: 59px;
+}
+.progress-bar {
+  background-color: #d9d9d9;
+  color: var(--bs-progress-bar-color);
+}
+.progress, .progress-stacked {
+  transform: rotate(270deg);
+  height: 30px;
+  border-radius: 0;
+  width: 200px;
+  position: relative;
+  right: 70px;
+  top: 90px;
+}
+.text-bg-warning {
+  background-color: #1DD851 !important;
+
+}
+.bg-posicao {
+  background-color: #FCFC30;
+  background-image: url(../../assets/images/bg-posicao.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.posicao-atual {
+  position: relative;
+  bottom: 30px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-8 {
+  font-size: 8px;
+}
+.mensagem-desafio {
+ position: relative;
+ left: 30px;
+}
+.zona-premiacao {
+  position: relative;
+  left: 50px;
+  bottom: 15px;
+  border-bottom: 1px dashed var(--bs-blue);
+  width: fit-content;
+}
+.area-desafio {
+  background-image: url(../../assets/images/bg-desafios.png);
+  background-position: start;
+  background-repeat: no-repeat;
+  
+}
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+.bg-green {
+  background-color: #1DD851;
+  border-radius: 40px 0 0 40px;
+}
+.btn-regulamento {
+  position: relative;
+  top: 190px;
+}
+.bg-estrela-cadente {
+  background-image: url(../../assets/images/estrela-candente-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo-campanha {
+  position: relative;
+  left: 200px;
+}
+.text-bg-titulo-campanha {
+  background: linear-gradient(90deg, #465EFF 0%, rgba(70, 94, 255, 0) 100%);
+}
+.limitador {
+  max-width: 975px;
+}
+.descricao-desafio{
+  min-width: 372px;
+}
+.descricao-desafio p{
+  width: 300px;
+}
+.regulamento {
+  min-width: 260px;
+}
+
+
+
+
+
+
+/*Páginas Conquistando Planetas */
+#icone-conquistando {
+  max-width: 335px;
+  min-width: 0;
+}
+.bg-conquistando-planetas {
+  background-image: url(../../assets/images/bg-conquistando-planetas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.area-desafio-conquistando-planetas {
+  background-image: url(../../assets/images/bg-desafio-conquistando-planetas.png);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+.bg-posicao-conquistando-planetas {
+  background-color: #FCFC30;
+  background-image: url(../../assets/images/bg-posicao-conquistando-planetas.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.spec-desafio {
+  min-height: 284px;
+}
+
+
+
+/*Páginas Desafio Conexão das Galáxias */
+.area-desafio-conexao-galaxias {
+  background-image: url(../../assets/images/bg-desafio-conexao-galaxias.png);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+.bg-posicao-conexao-galaxias {
+  background-color: #FCFC30;
+  background-image: url(../../assets/images/bg-posicao-conexao.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.bg-conexao-galaxias {
+  background-image: url(../../assets/images/bg-conexao-galaxias.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+/*Páginas Campanha Fez, Decolou */
+.bg-fez-decolou {
+  background-image: url(../../assets/images/fez-decolou-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.area-desafio-fez-decolou {
+  background-image: url(../../assets/images/bg-desafio-fez-decolou.png);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+.bg-posicao-fez-decolou {
+  background-color: #FCFC30;
+  background-image: url(../../assets/images/bg-posicao-fez-decolou.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+
+
+
+
+/*Páginas Em breve */
+.bg-embreve {
+  background-image: url(../../assets/images/bg-embreve.png);
+}
+.embreve {
+  min-height: 770px;
+}
+.embreve h1{
+  color: var(--bs-yellow);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Cor do submenu mobile*/
+.pure-menu-link {
+  color: #eaeaea !important;
+}
+
+
+
+
+
+
+
+/*Página Rede Social*/
+.border-social {
+  border-radius: 13px;
+}
+.icon-social{
+  width: 40px;
+}
+.foto-social img {
+  max-width: 100px;
+}
+.media img {
+  max-width: 680px;
+}
+.border-line-blue-social {
+  border-top: 1px solid var(--bs-blue);
+  border-bottom: 1px solid var(--bs-blue);
+  padding: 3px 0;
+}
+.hover-social i:hover {
+  color: var(--bs-yellow);
+}
+.hover-social i:visited  {
+  color: var(--bs-yellow);
+}
+.user-comment-photo {
+  width: 50px;
+}
+.border-comments {
+  border-radius: 45px;
+}
+.comment {
+  font-size: 14px;
+}
+.date-comment {
+  position: relative;
+  left: 24em;
+}
+
+
+/*Telas Notebooks*/
+@media screen and (max-width: 1400px) {
+  .login-btn {
+    left: 24rem;
+  }
+  .mx-5 {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  .bg-space-gift {
+    min-height: 75vh;
+  }
+  @keyframes premios {
+    from {width: 150px}
+    to {width: 160px}
+  }
+  @keyframes premiosOut {
+    from {width: 160px}
+    to {width: 150px}
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+  aside .btn {
+    font-size: 14px;
+  }
+  aside a {
+    font-size: 14px;
+  }
+  .fs-3 {
+    font-size: 1.25rem !important;
+  }
+  .bg-space-gift {
+    min-height: 50vh;
+  }
+  .desafios-user {
+    padding: 0 20vh;
+  }
+}
+
+
+
+
