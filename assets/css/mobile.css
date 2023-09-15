@@ -154,4 +154,21 @@
         font-size: 2rem;
         top: 7px;
       }
+      .botao-customizavel button {
+        font-size: 18px;
+        margin: 20px 0;
+      }
+      #banner-custom-1 {
+        width: 100%;
+      }
+      #w-50 {
+        width: 70%;
+      }
+      .texto-customizavel h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+      }
+      #banner-preview {
+        width: 100%;
+      }
     }

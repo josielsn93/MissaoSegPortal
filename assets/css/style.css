@@ -232,13 +232,14 @@ aside .btn {
 }
 .titulo-banner-usuario h1{
   font-family: 'Roboto-light', sans-serif;
-  font-size: 3rem;
+  font-size: 40px;
   position: relative;
   left: 25%;
   margin-bottom: 9%;
   color: var(--bs-blue);
   background-color: var(--bs-yellow);
   width: 50%;
+  padding: 10px;
 }
 
 .margin-user {
@@ -723,6 +724,10 @@ border: none;
 
 
 
+
+
+
+
 /*PÁGINA CARDS*/
 .btn-pasta {
   text-align: center;
@@ -760,6 +765,9 @@ border: none;
 
 
 
+
+
+
 /*PÁGINA STORAGE*/
 .bg-storage {
   background-image: url(../../assets/images/bg-storage.png);
@@ -774,6 +782,55 @@ border: none;
 .bg-card {
   background-color: var(--bs-yellow);
   max-height: 10vw;
+}
+
+
+
+
+
+
+/*BANNER CUSTOMIZAVEL*/
+#banner-custom-1 {
+  background-image: url(../images/banner-customizavel/modelo-1.png);
+  background-repeat: no-repeat;
+  height: 322px;
+  width: 50%;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+#banner-preview {
+  background-image: url(../images/banner-customizavel/modelo-1.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 50%;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+.conteudo-customizavel {
+  background-color: var(--bs-yellow);
+}
+.texto-customizavel {
+  text-align: left;
+  color: var(--bs-blue);
+}
+.texto-customizavel h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.botao-customizavel button {
+  font-size: 20px;
+  padding: 10px 40px;
+}
+.botao-customizavel button:hover {
+  color: var(--bs-gray);
+}
+#w-50 {
+  width: 50%;
+}
+.destacar {
+  border: 3px solid var(--bs-blue);
 }
 
 
